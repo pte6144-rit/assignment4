@@ -1,0 +1,10 @@
+This tool sends the contents of files within specified directories
+recursively to an HTTP server.
+
+The app.py file defines the server, and can simply be run on the receiving
+end. It automatically creates any necessary directories. Flask must be installed
+via PIP.
+
+The log.py file defines the client, and should be run on the sending device.
+It needs to be configured by changing the global variables near the top of
+the script.
